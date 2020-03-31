@@ -1,0 +1,66 @@
+h1, h2, h3, h4, h5, h6{
+	font-family:Palatino;
+}
+
+.navbar-brand img{
+	width:250px;
+}
+
+.hero{
+	background: url(../img/hero.jpg);
+	background-size:cover;
+	background-position:center center;
+	height:calc(100vh - 150px);
+}
+
+.herojumbo{
+	background:linear-gradient( rgba(255,0,0,.5), rgba(255,0,0,.25) );
+}
+
+.stripebg{
+	background: url(../img/pink-stripe-background.jpg);
+	background-attachment: fixed;
+}
+
+
+.btn{
+	text-transform: uppercase;
+	font-family:Palatino;
+}
+
+.card, .card-img{
+	border:none;
+	border-radius: 0px;
+}
+
+.card-img-overlay{
+	background:rgba(0,0,0,.5);
+	padding:70px;
+}
+
+#cta{
+	background: linear-gradient( rgba(255, 0, 0, 0.75), rgba(255, 0, 0, 0.45) ), url(../img/cta.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	padding:100px 15px;
+}
+
+#b1{
+	background: linear-gradient( rgba(255,255,255,1), rgba(255,255,255,.5) ), url(../img/b1.jpg);
+		background-size:cover;
+	background-position:center center;
+}
+
+#b2{
+	background: linear-gradient( rgba(255,255,255,1), rgba(255,255,255,.5) ), url(../img/b2.jpg);
+		background-size:cover;
+	background-position:center center;
+}
+
+
+@media screen and (max-width:400px){
+	.card-img-overlay{
+	background:rgba(0,0,0,.5);
+	padding:20px;
+}
+}
