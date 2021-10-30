@@ -2,70 +2,63 @@
 <html lang="en">
 
 <head>
-	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css">
 
-	<title>Hello, world!</title>
+	<title>Eng's Florist</title>
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-white container">
-		<a class="navbar-brand" href="#"><img src="assets/img/eng-florist-logo.png"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-			<ul class="navbar-nav ">
-				<li class="nav-item">
-					<a class="nav-link btn btn-outline-success m-1" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link btn btn-outline-success m-1" href="#">Products</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link btn btn-outline-success m-1" href="#">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link btn btn-outline-success m-1" href="#">Contact Us</a>
-				</li>
-
-			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			</form>
+	<!-- nav -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="assets/img/eng-florist-logo.png"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link btn btn-outline-success m-1" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link btn btn-outline-success m-1" href="#">Products</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link btn btn-outline-success m-1" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link btn btn-outline-success m-1" href="#">Contact Us</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</nav>
-	<!--	hero -->
-	<div class="hero">
-		<div class="jumbotron jumbotron-fluid herojumbo h-100 mb-0">
-			<div class="container text-white h-100">
-				<div class="row  align-items-center h-100">
-					<div class="col w-100">
-						<h1 class="display-4 text-uppercase">Windsor Terrace Primier Florist</h1>
-						<p class="lead">
-							No matter what your event is, we can customize
-							an arrangement to suit the mood at a price you
-							can afford.
-						</p>
-						<a class="btn btn-success btn-lg" href="product.html" role="button">Order Now</a>
-					</div>
+
+	<!-- hero -->
+	<div class="hero p-5 container-fluid">
+		<div class="container text-white">
+			<div class="row">
+				<div class="herojumbo col-md-6 offset-md-6 p-5">
+					<h1 class="display-4 text-uppercase">Windsor Terrace Primier Florist</h1>
+					<p class="lead">
+						No matter what your event is, we can customize
+						an arrangement to suit the mood at a price you
+						can afford.
+					</p>
+					<a class="btn btn-success btn-lg" href="#" role="button">Order Now</a>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<!-- catagories -->
+	<!-- categories -->
 	<div class="stripebg py-5">
 		<div class="container text-center p-5 ">
 			<h2 class="text-uppercase">Categories</h2>
-			<div class="btn-group  d-none d-md-inline-flex" role="group" aria-label="Basic example">
+			<div class="btn-group d-none d-md-inline-flex" role="group" aria-label="Basic example">
 				<button type="button" class="btn btn-warning">Bamboos</button>
 				<button type="button" class="btn btn-warning">Bonsais</button>
 				<button type="button" class="btn btn-warning">Mixed Flowers</button>
@@ -73,7 +66,7 @@
 				<button type="button" class="btn btn-warning">Plants</button>
 				<button type="button" class="btn btn-warning">Wedding</button>
 			</div>
-			<div class="d-block d-md-none">
+			<div class="d-block d-md-none mt-4">
 				<button type="button" class="btn btn-warning">Bamboos</button>
 				<button type="button" class="btn btn-warning">Bonsais</button>
 				<button type="button" class="btn btn-warning">Mixed Flowers</button><br><br>
@@ -83,52 +76,43 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="container-fluid">
+	<div class="container p-5">
 		<div class="row">
-			<div class="col-12 p-3">
-				<h2 class="text-uppercase text-center m-0 pt-5">Features</h2>
+			<div class="col-12 pb-3">
+				<h2 class="text-uppercase text-center m-0">Features</h2>
 			</div>
-			<div class="col-lg p-5" id="b1">
+			<div class="col-lg p-5 border" id="b1">
 				<h3>Bamboos</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-				<button id="btn1" type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-					Learn More
-				</button>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button id="btn1" type="button" class="btn btn-success"data-bs-toggle="modal" data-bs-target="#exampleModal">Learn More</button>
 			</div>
-			<div class="col-lg p-5" id="b2">
+			<div class="col-lg p-5 border" id="b2">
 				<h3>Weddings</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-				<button id="btn2" type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-					Learn More
-				</button>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button id="btn2" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Learn More</button>
 
 			</div>
 		</div>
 	</div>
 	<div class="stripebg py-5">
-		<div class="container text-center p-5 ">
+		<div class="container p-5">
 			<h2 class="text-uppercase"> Always Fresh &amp; Amazing</h2>
 			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-			incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-			nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-			fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-			culpa qui officia deserunt mollit anim id est laborum.</p>
+				incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+				fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+				culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 	</div>
 
 	<!-- CTA -->
-	<div class="jumbotron jumbotron-fluid text-center mb-0 text-white" id="cta">
-		<h2 class="text-uppercase">Come in today</h2>
+	<div class="text-center mb-0 text-white" id="cta">
+		<h2 class="text-uppercase display-2">Come in today</h2>
 		<p class="lead">We use our creative skills and years of
 			experience to arrange beautiful designs that
 			perfectly match any occasion.</p>
-		<a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
+		<a class="btn btn-warning btn-lg" href="#" role="button">Learn more</a>
 	</div>
 
 	<div class="container-fluid stripebg">
@@ -141,24 +125,19 @@
 				<p class="lead">
 					4722 8th Avenue<br>
 					Brooklyn, NY 11220<br>
-					<a href="tel:+16465733380">(646) 573-3380</a><br>
-					<a href="mailto:engsflorist@gmail.com">engsflorist@gmail.com</a>
+					<a href="tel:+16465733380" class="text-decoration-none">(646) 573-3380</a><br>
+					<a href="mailto:engsflorist@gmail.com" class="text-decoration-none">engsflorist@gmail.com</a>
 				</p>
 			</div>
 		</div>
 	</div>
 	<!-- Button trigger modal -->
-
-
-
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
 					<img id="mimg" src="assets/img/b1.jpg" class="img-fluid">
@@ -166,17 +145,21 @@
 						<a href="#" class="btn btn-outline-success">$39.99</a>
 					</p>
 				</div>
-
 			</div>
 		</div>
 	</div>
 
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="assets/js/jquery-3.4.1.slim.min.js"></script>
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<script>
 		$('#btn1').click(function() {
 			console.log('clicked btn1');
@@ -197,6 +180,9 @@
 				<a href="#" class="btn btn-outline-success">$399.99</a>
 			`);
 		});
+
 	</script>
 
-</body></html>
+</body>
+
+</html>
